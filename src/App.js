@@ -3,13 +3,14 @@ import Parent from './components/ShoppingCart';
 import { Route, Routes } from 'react-router-dom';
 import { ProductSummary } from './components/ProductSummary';
 import { HomePage } from './components/HomePage';
+import { TopNav } from './components/TopNav';
 
 function App() {
   return (
 <>
 
 <div>
-App.js page
+<TopNav />
 <Parent />
 <HomePage />
 

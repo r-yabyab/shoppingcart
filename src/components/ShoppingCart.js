@@ -27,6 +27,7 @@ function ChildB({ fName, lName }) {
     <>
       ChildB Component.
       <br />
+      test
       <ChildC fName={fName} lName={lName} />
     </>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Holds Products
 export function HomePage () {
     return(
         <>
@@ -9,10 +10,7 @@ export function HomePage () {
                 Products
             </div>
 
-            <div className="text-blue-400 [&>div]:flex">
-                <Link to='/summary'><div>Product Summary</div></Link>
-                <Link to='/test'><div>Test page</div></Link>
-            </div>
+
 
         </div>
         </>
